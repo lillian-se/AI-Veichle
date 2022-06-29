@@ -1,0 +1,40 @@
+html, body {
+    margin: 50px;
+    padding: 0;
+    font-size: 1.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(99, 94, 94);
+  }
+  canvas {
+    display: block;
+  }
+  h1, h2{
+    margin: 0;
+  }
+  h2{
+    padding-bottom: 20px;
+  }
+ button{
+ 
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  color:whitesmoke;
+ }
+
+ button:nth-child(odd){
+  background-color: rgb(231, 76, 76);
+ }
+ button:nth-child(even){
+  background-color: rgb(7, 155, 7);
+ }
+ button:nth-child(odd):hover{
+  background-color: rgb(244, 116, 114);
+  cursor: pointer;
+ }
+ button:nth-child(even):hover{
+  background-color:rgb(9, 208, 9);
+  cursor: pointer;
+ }
